@@ -1,10 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="es">
+    <head> <meta charset="utf-8">
+        <title>CSS</title>
+        <style>
+        /*Reglas Css*/
+        /*De Etiqueta*/
+            body,h1,h2,h3,h4,h5,h6{
+            margin: 0;
+            padding: 0;    
+            }
+            p{
+                text-align: justify;
+                text-transform: capitalize;
+            }
+        /*De ID*/
+            #nota-importante{
+            width: 400px;
+            
+            }
+            #nota-importante p{
+            font-style: italic;
+            
+            }    
+        </style>
 
     </head>    
    <body>
-       <h3><marquee>gay</marquee></h3>
+       <h1>Proyecto CSS</h1>
+       <h2 style="text-decoration:underline;color:green;">CSS inline</h2>
+       <section id="nota-importante">
+        <article>
+            <header><h3>Noticia Importante</h3></header>
+            <p>colette Apesta</p>
+            <footer>no tiene nariz</footer>
+            
+        </article>
+       
+       </section>
+       
 
    </body>
 </html>
